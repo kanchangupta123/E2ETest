@@ -1,4 +1,4 @@
-import { element, browser, by, Key } from 'protractor';
+import { element, browser, by} from 'protractor';
 
 export class HomePage {
 	getPage() {
@@ -8,5 +8,8 @@ export class HomePage {
 	getPageTitle() {
 		return browser.getTitle();
 	}
+	getHomePageTag() {
+		return element(by.tagName('home-page'));
+	  }
 
 }

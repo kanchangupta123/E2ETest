@@ -1,5 +1,3 @@
-import { by, browser, element } from 'protractor';
-
 import { HomePage } from './pages/home.page';
 
 describe('Conduit App E2E Test Suite', () => {
